@@ -1,0 +1,161 @@
+You are an expert visual designer & front-end developer (worked with premium brands like Netflix / CRED / Apple). Build a single-page, production-quality landing site for AN Enterprise — a small e-commerce landing page selling home décor & kitchen products. Use only HTML, CSS, and JavaScript (no frameworks, no build tools). Deliver index.html, styles.css, scripts.js, and an assets/ folder with placeholder images. Keep code clean, semantic, and well-commented.
+
+Brand
+
+Brand name: AN Enterprise
+
+Primary colors (use earthy palette):
+
+Olive Green → #636B2F (primary CTA, highlights)
+
+Muted Sage → #BAC095 (secondary backgrounds, section fills)
+
+Soft Lime → #D4DE95 (cards, hover states, soft accents)
+
+Dark Moss Green → #3D4127 (headings, body text)
+
+Typography: Modern, readable — use a clean Google Font with fallback stack.
+
+Tone: Warm, natural, premium, home-decor oriented.
+
+High-level goals
+
+Convert visitors into purchasers and email leads.
+
+Showcase top home décor & kitchen products with elegant, trust-building layout.
+
+Fast, accessible, mobile-first, responsive across devices.
+
+Only HTML/CSS/JS — no frameworks.
+
+Hero (top fold)
+
+Left:
+
+Headline: “Elevate Your Home — Curated Home Décor & Kitchen Essentials”
+
+Subhead: “Handpicked, ready-to-use pieces to transform your space — quality, style & value.”
+
+Primary CTA (solid Olive Green): “Shop Bestsellers”
+
+Ghost CTA (outlined Soft Lime border): “See Collections”
+
+Right: Product hero carousel showing 2–3 featured products with price, rating, and “Quick View.”
+
+Trust strip under hero: “Free delivery* • 7-day returns • Secure payments • GST invoice” with small icons.
+
+Value Stack
+
+4-column row with icons:
+
+Free delivery over ₹999
+
+7-day easy returns
+
+Secure payments & GST invoice
+
+Handpicked, curated quality
+
+Product Grid
+
+Responsive grid of placeholder products.
+
+Each card:
+
+Product image (lazy loaded)
+
+Title (2 lines max)
+
+Descriptor (1 line)
+
+Price (with crossed-out original if discounted)
+
+Badges (“Bestseller”, “New”, “Limited stock”)
+
+Buttons: “Quick View” + “Add to Cart”
+
+Filtering & sorting (client-side only):
+
+Categories: Home Decor, Kitchenware, Tableware, Textiles
+
+Price range filter
+
+Sort by: Popular | Price Low→High | Price High→Low | Newest
+
+Client-side search (title + tag match).
+
+Quick View & Cart
+
+Quick View modal with: larger image carousel, full description, features list, quantity, “Add to Cart,” “Buy Now.”
+
+Sticky cart icon in top-right with count. Slide-in cart shows products, totals, coupon field (simulate), “Checkout” button.
+
+Cart saved in localStorage.
+
+Bundles / Offers
+
+Horizontal section: 2–3 bundle cards (e.g., “Kitchen Starter Kit”).
+
+Show bundle savings and “Add Bundle” CTA.
+
+Customer Proof
+
+Section: “Why choose AN Enterprise?”
+
+Icons + short benefits:
+
+“Curated Home & Kitchen Essentials”
+
+“Secure Checkout + GST Invoice”
+
+“Easy 7-Day Returns”
+
+3 testimonials with names, photos, and star ratings.
+
+FAQ & Policies
+
+Accordion answering: shipping time, returns, GST invoice, warranty, contact info.
+
+Footer & Sticky CTA
+
+Footer links: About, Shipping, Returns, Contact, Social icons.
+
+Sticky footer (mobile): Product price + “Checkout Securely.”
+
+Accessibility & Performance
+
+Semantic HTML5 structure.
+
+Keyboard focusable elements with visible focus styles.
+
+Alt text on all images; ARIA labels for modals and cart.
+
+Contrast AA+ compliance using earthy palette.
+
+Lazy load images for performance.
+
+SEO & Structured Data
+
+Include meta tags (title, description, OG).
+
+JSON-LD Product schema for at least 6 sample products.
+
+Deliverables
+
+index.html, styles.css, scripts.js, assets/ with image placeholders.
+
+Provide 6 sample product objects in scripts.js.
+
+Code clean, responsive, documented.
+
+Acceptance Criteria
+
+Page fully responsive (desktop, tablet, mobile).
+
+Filtering, search, cart, quick view work without backend.
+
+Cart + email capture persist via localStorage.
+
+Uses earthy green palette (#636B2F, #BAC095, #D4DE95, #3D4127).
+
+Accessible, SEO-friendly, performant.
